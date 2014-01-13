@@ -1,14 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <title>Requirement and Usecase of OWS</title>
+    <title>Requirements and Use Cases for Open Web Application Store</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <script src='https://www.w3.org/Tools/respec/respec-w3c-common'
             class='remove'></script>
     <script class="remove">
       var respecConfig = {
           specStatus:           "ED",
-          shortName:            "messaging",
+          shortName:            "ows-req",
           publishDate:          "",
           previousPublishDate:  "",
           previousMaturity:     "",
@@ -16,9 +16,9 @@
           // lcEnd:                "",
           crEnd:                "",
           editors: [
-              { name: "Sangwon Park ", company: "DISLAB"
-                      },
               { name: "Jonghong Jeon ", company: "ETRI"
+                      },
+              { name: "Sangwon Park ", company: "DISLAB"
                       },
               { name: "Jungheon Kim ", company: "DISLAB"
                       },
@@ -29,21 +29,21 @@
           inlineCSS:    true,
           noIDLIn:      true,
           noIDLSorting: true,
-          wg:           "System Applications Working Group",
+          wg:           "Web Application Store Community Group",
           wgURI:        "http://www.w3.org/2012/sysapps/",
-          wgPublicList: "public-sysapps",
+          wgPublicList: "public-webappstore",
           wgPatentURI:  "http://www.w3.org/2004/01/pp-impl/43696/status",
           otherLinks: [{
             key: "Repository",
             data: [{
                     value: "We are on Github.",
-                    href: "https://github.com/sysapps/messaging"
+                    href: "https://github.com/hollobit/ows-req"
                 }, {
                     value: "File a bug.",
-                    href: "https://github.com/sysapps/messaging/issues"
+                    href: "https://github.com/hollobit/ows-req/issues"
                 }, {
                     value: "Commit history.",
-                    href: "https://github.com/sysapps/messaging/commits/gh-pages"
+                    href: "https://github.com/hollobit/ows-req/commits/gh-pages"
                 }
             ]
         }
@@ -65,11 +65,11 @@
   <body>   
  <!-- - - - - - - - - - - - - - - Abstract  - - - - - - - - - - - - - - - - - -->    
 <section id="abstract">
-  This specification defines a System Level API which offers a simple interface
-  to get access to mobile messaging services. A typical use case of the
-  Messaging API is the implementation of a messaging client application that
-  allows the user to send SMS and MMS messages as well as to access and manage
-  the received SMS and MMS messages.
+  This specification defines the requirements and use cases for Open Web Application Store.
+  A typical use case of the Open Web Application Store is 
+  the implementation of a interoperable web app marketplace(store) that
+  allows the user to install packaged web apps from a web app store as well as to search and purchase
+  the installalbe web app from open web app marketplace environment.
 </section>
 <!-- - - - - - - - - - - - - - - Status of this document - - - - - - - - - - -->   
 <section id="sotd">
